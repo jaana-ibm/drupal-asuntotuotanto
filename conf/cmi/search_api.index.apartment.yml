@@ -297,8 +297,8 @@ field_settings:
   project_building_type:
     label: 'Building type'
     datasource_id: 'entity:node'
-    property_path: 'search_api_reverse_entity_references_node__field_apartments:field_building_type'
-    type: object
+    property_path: 'search_api_reverse_entity_references_node__field_apartments:field_building_type:entity:name'
+    type: string
   project_city:
     label: City
     datasource_id: 'entity:node'
