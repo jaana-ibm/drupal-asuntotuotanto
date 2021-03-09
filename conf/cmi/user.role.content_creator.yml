@@ -1,31 +1,20 @@
-uuid: b9c741aa-1567-4959-9282-5f15bf449d38
-langcode: en
+uuid: 35b9ef5e-203e-4879-bd59-d22387787bf9
+langcode: fi
 status: true
 dependencies: {  }
-id: salesperson
-label: Salesperson
-weight: -6
+id: content_creator
+label: 'Content creator'
+weight: -8
 is_admin: null
 permissions:
   - 'access content'
-  - 'access files overview'
-  - 'access toolbar'
   - 'change own username'
   - 'create apartment content'
-  - 'create file media'
-  - 'create image media'
   - 'create project content'
-  - 'delete own file media'
-  - 'delete own image media'
   - 'edit any apartment content'
   - 'edit any project content'
   - 'edit own apartment content'
-  - 'edit own file media'
-  - 'edit own image media'
   - 'edit own project content'
-  - 'update media'
-  - 'view all revisions'
   - 'view apartment revisions'
   - 'view own unpublished content'
-  - 'view own unpublished media'
   - 'view project revisions'
